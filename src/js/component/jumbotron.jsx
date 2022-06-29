@@ -2,13 +2,12 @@ import React from "react";
 
 const Jumbotron = (props) => {
 return(
-    <div className="container">
-    <div className="jumbotron bg-light">
-    <h1 className="display-4">Hello, world!</h1>
-        <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <div className="container radius-4 pt-2">
+    <div className="jumbotron bg-light p-3">
+    <h1 className="display-4"><strong>A Warm Welcome!</strong></h1>
+        <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas omnis eaque reiciendis ea officiis nisi impedit unde corporis iure possimus, labore enim deleniti harum id delectus aspernatur! Sit, possimus ad?</p>
   
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <a className="btn btn-primary btn-lg mb-4" href="#" role="button">Call to Action!</a>
   </div>
   </div>
 )

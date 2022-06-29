@@ -7,13 +7,14 @@ import Jumbotron from "../component/jumbotron.jsx";
 import Card from "../component/card.jsx";
 import Footer from "../component/footer.jsx";
 
+
 //create your first component
 const Home = () => {
 	return (
 		<div>
 		<Navbar/>
 		<Jumbotron/>
-		<div>
+		<div className="container d-flex flex-wrap">
 			<Card/>
 			<Card/>
 			<Card/>

@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = (props) => {
     return(
-      
-        <div className="container-fluid pt-5 navbar-dark bg-dark" style={{height: "25vh"}}>
-        <p className="text-white text-center p-4"> Copyright © Your Website 2019</p>
-    </div>
+        <div className="navbar navbar-dark navbar-expand-sm bg-dark mb-4 d-flex justify-content-center text-white mt-5 p-3"style={{height: "10vh"}} >
+     
+        <p className=" text-white p-1"> Copyright © Your Website 2019</p>
+        </div>
     )
 }
 
